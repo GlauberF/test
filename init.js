@@ -1,4 +1,9 @@
 FWDUVPUtils.onReady(function(){
+	init(0);
+});
+
+window.setupVideoPlayer = function(){
+
 	console.log('readyy6yyy')
 
 	new FWDUVPlayer({
@@ -207,4 +212,5 @@ FWDUVPUtils.onReady(function(){
 		atbButtonBackgroundNormalColor:"#888888",
 		atbButtonBackgroundSelectedColor:"#000000"
 	});
-});
+
+}
